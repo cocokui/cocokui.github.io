@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Coding Your Heart]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ocock.github.io//"/>
-  <updated>2015-07-21T04:32:57.000Z</updated>
+  <updated>2015-07-21T09:35:44.000Z</updated>
   <id>http://ocock.github.io//</id>
   
   <author>
@@ -16,12 +16,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[个人博客的创建]]></title>
+    <link href="http://ocock.github.io/2015/07/21/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/"/>
+    <id>http://ocock.github.io/2015/07/21/个人博客的创建/</id>
+    <published>2015-07-21T08:43:41.000Z</published>
+    <updated>2015-07-21T09:35:44.000Z</updated>
+    <content type="html"><![CDATA[<p>周日晚间，无意间看见hexo，瞬间被吸引，偶尔也会文艺青年的我，创建个人博客的hexo如此优雅，而且，可以完全将自己的一切写下来，不需要再用其他，接下来总结，</p>
+<hr>
+<h2 id="认识Hexo">认识Hexo</h2><ul>
+<li><strong>安装hexo</strong><br>hexo支持全平台（Mac, Win, Linux），还需安装node.js和Git</li>
+<li><strong>配置hexo</strong><br>需要熟悉hero的基本操作，可以参见：<a href="https://hexo.io/" title="hexo个人博客" target="_blank" rel="external">Hexo官网</a></li>
+<li><strong>托管hexo</strong><br>hexo g<br>hexo d</li>
+</ul>
+<hr>
+<h2 id="Hexo写文章">Hexo写文章</h2><a id="more"></a>
+<ul>
+<li><strong>创建文章</strong><br>hero new “new post”</li>
+</ul>
+<hr>
+<h2 id="Markdown">Markdown</h2><ul>
+<li><strong>编辑xxx.md</strong><br>使用Markdown编辑器，图例：</li>
+</ul>
+<p><img src="/img/1.tiff =1070x510" alt=""></p>
+<ul>
+<li><strong>编辑完成</strong><br>上传更新博客，可简写：hexo d -g</li>
+</ul>
+<hr>
+<p><strong><em>不再折腾，接下来，继续Mac</em></strong></p>
+<blockquote>
+<p>人生若只如初见</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>周日晚间，无意间看见hexo，瞬间被吸引，偶尔也会文艺青年的我，创建个人博客的hexo如此优雅，而且，可以完全将自己的一切写下来，不需要再用其他，接下来总结，</p>
+<hr>
+<h2 id="认识Hexo">认识Hexo</h2><ul>
+<li><strong>安装hexo</strong><br>hexo支持全平台（Mac, Win, Linux），还需安装node.js和Git</li>
+<li><strong>配置hexo</strong><br>需要熟悉hero的基本操作，可以参见：<a href="https://hexo.io/" title="hexo个人博客">Hexo官网</a></li>
+<li><strong>托管hexo</strong><br>hexo g<br>hexo d</li>
+</ul>
+<hr>
+<h2 id="Hexo写文章">Hexo写文章</h2>]]>
+    
+    </summary>
+    
+      <category term="感想" scheme="http://ocock.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="思想碎片" scheme="http://ocock.github.io/categories/%E6%80%9D%E6%83%B3%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[继续折腾]]></title>
     <link href="http://ocock.github.io/2015/07/21/%E7%BB%A7%E7%BB%AD%E6%8A%98%E8%85%BE/"/>
     <id>http://ocock.github.io/2015/07/21/继续折腾/</id>
     <published>2015-07-21T04:09:39.000Z</published>
-    <updated>2015-07-21T04:32:57.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="开启折腾模式">开启折腾模式</h2><hr>
+    <updated>2015-07-21T09:45:07.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>开启折腾模式</strong></p>
+<hr>
 <ul>
 <li><strong>筛选</strong><blockquote>
 <p>如何设置紧凑<br>取消注释没实现</p>
@@ -38,7 +90,8 @@
 <hr>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="开启折腾模式">开启折腾模式</h2><hr>
+    <![CDATA[<p><strong>开启折腾模式</strong></p>
+<hr>
 <ul>
 <li><strong>筛选</strong><blockquote>
 <p>如何设置紧凑<br>取消注释没实现</p>
@@ -48,6 +101,10 @@
     
     </summary>
     
+      <category term="感想" scheme="http://ocock.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="手记" scheme="http://ocock.github.io/categories/%E6%89%8B%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
@@ -55,18 +112,24 @@
     <link href="http://ocock.github.io/2015/07/20/%E5%86%8D%E7%9B%B8%E6%80%9D/"/>
     <id>http://ocock.github.io/2015/07/20/再相思/</id>
     <published>2015-07-20T09:24:08.000Z</published>
-    <updated>2015-07-21T04:32:29.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="君住长江头">君住长江头</h1><blockquote>
+    <updated>2015-07-21T09:40:03.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>君住长江头</strong></p>
+<blockquote>
 <p>谁的容颜谁的歌，谁的回忆里埋有思念。</p>
 </blockquote>
-<p><img src="http://s1.ihostimg.com/s1/20150719223636dpk1d.jpeg" alt=""></p>
+<p><img src="http://s1.ihostimg.com/s1/20150719223636dpk1d.jpeg =1260x945" alt=""></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="君住长江头">君住长江头</h1><blockquote>
+    <![CDATA[<p><strong>君住长江头</strong></p>
+<blockquote>
 <p>谁的容颜谁的歌，谁的回忆里埋有思念。</p>
 </blockquote>
-<p><img src="http://s1.ihostimg.com/s1/20150719223636dpk1d.jpe]]>
+<p><img src="http://s1.ihostimg.com/s1/20150719223636dpk1]]>
     </summary>
+    
+      <category term="思绪" scheme="http://ocock.github.io/tags/%E6%80%9D%E7%BB%AA/"/>
+    
+      <category term="思想碎片" scheme="http://ocock.github.io/categories/%E6%80%9D%E6%83%B3%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
@@ -75,13 +138,18 @@
     <link href="http://ocock.github.io/2015/07/20/%E6%97%B6%E9%97%B4%EF%BC%9A07-20-2015-02-14/"/>
     <id>http://ocock.github.io/2015/07/20/时间：07-20-2015-02-14/</id>
     <published>2015-07-19T18:14:29.000Z</published>
-    <updated>2015-07-20T09:16:39.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="写给自己看">写给自己看</h1><p>无意间知道的这个功能很强大的个人博客系统，托管到Github，完全免费！<br>以后可以不再用那些个人笔记应用啦，，，</p>
+    <updated>2015-07-21T09:41:27.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>写给自己看</strong></p>
+<p>无意间知道的这个功能很强大的个人博客系统，托管到Github，完全免费！<br>以后可以不再用那些个人笔记应用啦，，，</p>
 ]]></content>
     <summary type="html">
     <![CDATA[昨晚折腾到两点，终于看见第一篇个人博客～]]>
     
     </summary>
+    
+      <category term="感想" scheme="http://ocock.github.io/tags/%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="思想碎片" scheme="http://ocock.github.io/categories/%E6%80%9D%E6%83%B3%E7%A2%8E%E7%89%87/"/>
     
   </entry>
   
