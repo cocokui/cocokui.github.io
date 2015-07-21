@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   
-  <title><![CDATA[4ever]]></title>
-  <subtitle><![CDATA[Coding Your World]]></subtitle>
+  <title><![CDATA[4ever coding]]></title>
+  <subtitle><![CDATA[Coding Your Heart]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ocock.github.io//"/>
   <updated>2015-07-21T04:32:57.000Z</updated>
   <id>http://ocock.github.io//</id>
   
   <author>
-    <name><![CDATA[三生石]]></name>
+    <name><![CDATA[4ever]]></name>
     
   </author>
   
