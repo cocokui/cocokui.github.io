@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Coding Your Heart]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ocock.github.io//"/>
-  <updated>2015-07-22T05:00:40.000Z</updated>
+  <updated>2015-07-26T12:24:31.000Z</updated>
   <id>http://ocock.github.io//</id>
   
   <author>
@@ -14,6 +14,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Thinking]]></title>
+    <link href="http://ocock.github.io/2015/07/26/Thinking/"/>
+    <id>http://ocock.github.io/2015/07/26/Thinking/</id>
+    <published>2015-07-26T12:22:53.000Z</published>
+    <updated>2015-07-26T12:24:31.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="思想" scheme="http://ocock.github.io/tags/%E6%80%9D%E6%83%B3/"/>
+    
+      <category term="感悟" scheme="http://ocock.github.io/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[创建UITableViewCell]]></title>
+    <link href="http://ocock.github.io/2015/07/26/%E5%88%9B%E5%BB%BAUITableViewCell/"/>
+    <id>http://ocock.github.io/2015/07/26/创建UITableViewCell/</id>
+    <published>2015-07-26T11:51:18.000Z</published>
+    <updated>2015-07-26T12:16:18.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="19章"><strong>19章</strong></h1><h2 id="创建UITableViewCell子类">创建UITableViewCell子类</h2><p><strong> 概述：<br>UITableView对象显示的是一组UITableViewCell对象，自带的属性有：textLabel, detailTextLabel和imageView。如果需要UITableViewCell对象显示更多细节，或者拥有不同的布局时，需要创建自定义的UITableViewCell子类。 </strong></p>
+<a id="more"></a>
+<hr>
+<ul>
+<li>效果图：</li>
+</ul>
+<p><img src="http://s1.ihostimg.com/s1/20150726004849bcojv.jpeg" alt="image"></p>
+<hr>
+<ol>
+<li>UITableViewCell是UIView的子类，定制界面－&gt;覆盖drawRect<br>contentView：UITableViewCell的子视图，起容器的作用，将定制的修改的UITextField、UILabel和UIButton等视图对象加入contentView，可以改变UITableViewCell外观。</li>
+<li>处理图片<br>UITableViewCell采用缩略图显示图片，thumbnail，</li>
+<li><p>向UITableViewCell上添加UIControl对象<br>视图对象，不应该直接存取模型对象，所以，通过视图控制器对象，添加一个Block对象。</p>
+<blockquote>
+<p><strong>引入学习Block对象</strong><br><code>void (^)(NSString *someArg, int anotherArg)</code><br>Block在栈中创建，其他对象在堆中，copy某个Block对象时，应用会在堆中创建该对象的备份。</p>
+</blockquote>
+</li>
+<li><p>捕获变量<br>Block对象可以使用其封闭作用域内的所有变量。</p>
+</li>
+</ol>
+<hr>
+<h2 id="深入学习：UICollectionView">深入学习：UICollectionView</h2><ul>
+<li><strong>UICollectionView是UIScrollView的子类</strong></li>
+<li><strong>与UITableViewCell类似，UICollectionView对象显示一组UICollectionViewCell</strong></li>
+<li><strong>UICollectionView具有数据源</strong></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[iOS以及OC的学习]]>
+    
+    </summary>
+    
+      <category term="Objective-C" scheme="http://ocock.github.io/tags/Objective-C/"/>
+    
+      <category term="iOS" scheme="http://ocock.github.io/tags/iOS/"/>
+    
+      <category term="iOS学习" scheme="http://ocock.github.io/categories/iOS%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[个人博客的创建]]></title>
