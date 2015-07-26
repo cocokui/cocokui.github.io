@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Coding Your Heart]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ocock.github.io//"/>
-  <updated>2015-07-26T12:24:31.000Z</updated>
+  <updated>2015-07-26T12:33:14.000Z</updated>
   <id>http://ocock.github.io//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ocock.github.io/2015/07/26/Thinking/"/>
     <id>http://ocock.github.io/2015/07/26/Thinking/</id>
     <published>2015-07-26T12:22:53.000Z</published>
-    <updated>2015-07-26T12:24:31.000Z</updated>
+    <updated>2015-07-26T12:33:14.000Z</updated>
     <content type="html"></content>
     <summary type="html">
     
@@ -37,14 +37,13 @@
     <link href="http://ocock.github.io/2015/07/26/%E5%88%9B%E5%BB%BAUITableViewCell/"/>
     <id>http://ocock.github.io/2015/07/26/创建UITableViewCell/</id>
     <published>2015-07-26T11:51:18.000Z</published>
-    <updated>2015-07-26T12:16:18.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="19章"><strong>19章</strong></h1><h2 id="创建UITableViewCell子类">创建UITableViewCell子类</h2><p><strong> 概述：<br>UITableView对象显示的是一组UITableViewCell对象，自带的属性有：textLabel, detailTextLabel和imageView。如果需要UITableViewCell对象显示更多细节，或者拥有不同的布局时，需要创建自定义的UITableViewCell子类。 </strong></p>
+    <updated>2015-07-26T12:32:12.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="19章"><strong>19章</strong></h1><h2 id="创建UITableViewCell子类">创建UITableViewCell子类</h2><p><strong> 概述：<br>UITableView对象显示的是一组UITableViewCell对象，自带的属性有：textLabel, detailTextLabel和imageView。<br>如果需要UITableViewCell对象显示更多细节，或者拥有不同的布局时，需要创建自定义的UITableViewCell子类。 </strong></p>
 <a id="more"></a>
 <hr>
 <ul>
-<li>效果图：</li>
+<li>效果图：<br><img src="http://s1.ihostimg.com/s1/20150726004849bcojv.jpeg" width="320" height="590" alt="image" align="center"></li>
 </ul>
-<p><img src="http://s1.ihostimg.com/s1/20150726004849bcojv.jpeg" alt="image"></p>
 <hr>
 <ol>
 <li>UITableViewCell是UIView的子类，定制界面－&gt;覆盖drawRect<br>contentView：UITableViewCell的子视图，起容器的作用，将定制的修改的UITextField、UILabel和UIButton等视图对象加入contentView，可以改变UITableViewCell外观。</li>
